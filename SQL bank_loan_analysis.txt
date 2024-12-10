@@ -1,0 +1,25 @@
+create database bank_project;
+use bank_project;
+select count(*) from finance_1;
+select count(*) from finance_2;
+
+#KPI 01 Year wise loan amount 
+select year(issue_D) as Year, sum(loan_amnt) as Loan_Amount from finance_1 group by Year order by Year;
+
+#KPI 02 Grade
+ and Sub Grade wise Revol_Bal
+select grade as Grade, sub_grade as Sub_Grade, sum(revol_bal) as Revol_Bal from finance_1 inner join finance_2 on(finance_1.id = finance_2.id) 
+group by grade, sub_grade order by grade, sub_grade;
+
+#KPI 03 Total Payment for verified status Vs Total Payment for Non Verified Status
+select verification_status as Verification_Status, concat("$",format(round(sum(total_pymnt)/1000000,2),2)," ","M") as Total_Payment 
+from finance_1 inner join finance_2 on(finance_1.id = finance_2.id) group by verification_status;
+
+#KPI 04 State wise and last_credit_pull_d wise loan status
+select addr_state, last_credit_pull_d, loan_status from finance_1 inner join finance_2 on(finance_1.id = finance_2.id) 
+group by addr_state, last_credit_pull_d, loan_status order by last_credit_pull_d desc;
+
+#KPI 05 Home Ownership Vs last payment date stats
+select home_ownership as Home_Ownership, last_pymnt_d as Last_Payment_Date, 
+concat("$",format(round(sum(last_pymnt_amnt)/10000,2),2)," ","K") as Last_Payment_Amount from finance_1 inner join finance_2 on(finance_1.id = finance_2.id) 
+group by home_ownership, last_pymnt_d order by last_pymnt_d desc, home_ownership desc;
