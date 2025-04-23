@@ -109,5 +109,3 @@ It effectively communicates:
 	• Verification impact
 	• Regional loan performance
 	• Borrower profile via homeownership
- 
-![image](https://github.com/user-attachments/assets/44480e03-35fa-4024-8200-8f5ed764c87a)
