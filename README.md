@@ -1,111 +1,91 @@
-# Bank-Loan-Analysis
+🏦 Bank Loan Analysis Dashboard Project:-
 
-📘 Excel Dashboard | Bank Loan Performance Analysis
+	• Tools Used: Excel, Power BI, Tableau
+	• Domain: Banking & Financial Services | Lending | Data Analytics
+	• Techniques: Data Cleaning, Data Transformation, KPI Calculation, Interactive Visualization
 
-Exploring loan data through Excel helped uncover key metrics like verification status, loan grades, and repayment patterns. Check out how I built a dashboard that visualizes credit trends over a decade.
+📁 Project Overview:-
 
-Analyzed loan application data from 2007 to 2016, revealing trends in borrower behavior and credit status:
+This project is a comprehensive end-to-end analysis of a bank’s loan portfolio. Using tools like Excel, Power BI, and Tableau, I transformed raw loan data into meaningful insights that highlight loan performance, borrower behavior, risk segmentation, and regional lending trends. The dashboards created are designed to help stakeholders—such as credit analysts, risk officers, and management—make informed decisions based on data-driven metrics.
 
-	• Total Loan Amount: ₹446M | Funded Amount: ₹435M
-	• Average Interest Rate: 12.02%
-	• Verification Split: 59% Verified, 41% Not Verified
-	• Grade-wise Risk Profile: Grade B had the highest revol balance (30%)
-	• Loan Type Trend: Mortgage ownership spiked in 2013–2015
-	• State Performance: TX had the most charged-off loans by 2016
+🎯 Business Objectives:-
 
-This Excel-based analysis helps in evaluating creditworthiness and improving loan risk strategy.
+	• Identify key trends in loan funding and repayment over time.
+	• Understand risk distribution by loan grade and verification status.
+	• Analyze borrower profiles based on ownership status and home state.
+	• Evaluate product performance using interest rate and revolving balance metrics.
+	• Visualize top-performing and high-risk states for better targeting.
 
+📊 Key Insights and Analysis:-
 
-![Picture2](https://github.com/user-attachments/assets/ec55b165-164f-42b3-bba5-97a57bfbffc1)
+✅ 1. Overall Lending Performance:
 
-
-💳 Power BI Dashboard | Bank Loan Insights & Risk Assessment
-
-What does loan data really reveal about borrower behavior? In this Power BI dashboard, I visualized loan performance over several years, uncovering trends in credit, risk factors, and repayment behaviors.
-
-This dashboard helps visualize key risk and lending insights:
-
-	• Loan Distribution (2007–2011): Sharp rise in 2010 (₹122M) and 2011 (₹261M)
-	• Verification Accuracy: 58.88% of applicants verified
-	• Grade B Revolving Balance: ₹40M (top performing segment)
-	• NY & CA Loan Volumes: CA – 5823 current loans, NY – 3203
-	• Subgrade Risk Analysis: Grades B1–B5 were top contributors in revol balance
-
-Power BI brings these insights to life with drilldowns and visuals for real-time decision making.
-
-
-![PowerBI Dashboard](https://github.com/user-attachments/assets/b5d7d9ec-b816-4baf-979d-ebb4a8157773)
-
-📊 Tableau Dashboard | Bank Loan Insights & Risk Assessment
-
-Key KPIs (Top Section):
-
-	• Total Loan Amount: $446M
-	• Total Funded Amount: $435M
-	• Total Recoveries: 40K
-	• Average Interest Rate: 12.02%
-
-This indicates that the bank has disbursed a massive $446 million in loans, out of which $435 million was actually funded. The average interest rate on these loans is relatively high at 12.02%, which may reflect moderate to high risk across the portfolio. Recoveries (40K) highlight the bank's ability to reclaim defaulted amounts.
-
-
-![Tableau Dashboard](https://github.com/user-attachments/assets/397fc80d-c3e8-466b-8ea0-ea4fe4416c78)
-
-
-🟦 Summary:
-
-🔹 Grade and Subgrade Wise Revolving Balance
-
-This bar chart breaks down the revolving balance across loan grades and subgrades:
-Top Subgrades with Highest Balances:
-
-	• B1: $40M
-	• B3: $38M
-	• A4 & B5: Around $35–36M
+	• Total Loan Amount Disbursed: $446 Million
+	• Total Amount Funded: $435 Million
+	• Average Interest Rate Across Portfolio: 12.02%
 	
-	Majority of the lending is concentrated in the B-grade category, signaling moderate credit risk tolerance.
+This reflects the bank’s strong lending position with a relatively high funding-to-loan ratio, signaling operational efficiency.
 
-🔹 Verified vs Non-Verified Status (Pie Chart)
+🗓️ 2. Year-wise Loan Distribution:
 
-	• Verified Applications: 58.88%
-	• Not Verified: 41.12%
+	• The loan volume steadily increased from 2007 to 2011, with 2011 alone accounting for $261M in disbursed loans.
+	• Indicates the bank’s expanding operations and increased customer acquisition over time.
+
+📄 3. Verification Status Analysis:
+
+	• 59% of the loans were verified, while 41% were not.
+	• Verified loans have better performance and lower default rates, suggesting that verification correlates positively with reduced risk.
+
+🏠 4. Ownership Type vs. Payment Trends:
+
+	• Borrowers with mortgages and those renting are contributing the highest repayment volumes.
+	• Borrowers who own their homes represent the smallest repayment segment—possibly due to lower borrowing needs or better financial standing.
+
+🏅 5. Loan Grade and Sub-grade Breakdown:
+
+	• Grades B and C dominate the loan portfolio, showing a focus on moderate-risk borrowers.
+	• Subgrades B3 and B5 have the highest revolving balances, each over $35M, making them crucial segments for profitability and risk management.
+
+📍 6. State-wise Loan Performance:
+
+	• California (CA) leads the chart with the highest volume of loans, followed by New York (NY) and Texas (TX).
+	• CA also sees the highest proportion of fully paid loans, indicating better financial discipline or successful loan management strategies.
+
+📌 Summary:-
+
+This project demonstrates the power of data visualization and analytics in the banking domain. I have applied key data analysis techniques including data cleaning, filtering, and summarization in Excel, and developed dynamic dashboards in both Power BI and Tableau.
+
+Each platform provided unique benefits:
+
+	• Excel: Data transformation, pivot tables, and KPI tracking.
+	• Power BI: Interactive filters, dynamic visuals, and slicer-based exploration.
+	• Tableau: High-level storytelling visuals, map-based insights, and performance comparison charts.
 	
-This suggests that nearly 60% of the applications underwent income or employment verification, which is a good indicator of risk mitigation practices.
+The outcome enables decision-makers to:
 
-🔹 Year-wise Loan Amount (Bar Chart)
+	• Detect performance trends.
+	• Assess credit risk.
+	• Target reliable borrower segments.
+	• Improve operational and strategic decisions.
 
-	• 2011: $261M
-	• 2010: $122M
-	• 2009: $46M
-	• 2008: $14M
-	• 2007: $2M
-	
-Loan disbursements grew exponentially from 2007 to 2011, peaking in 2011 with over 58% of the total loan amount disbursed that year.
+📎 What I Learned:-
 
-🔹 Home Ownership vs Last Payment Date
+	• How to work with large real-world financial datasets.
+	• Practical dashboard building with industry-standard tools.
+	• Connecting data insights with real business outcomes.
+	• Communicating technical findings in a business-friendly way.
 
-This stacked bar chart shows borrower housing status over time:
+![Excel Dashboard](https://github.com/user-attachments/assets/3cf23b17-c4b7-4479-89e5-30e19a3bd409)
 
-	• 2012–2014 had the highest number of payments.
-	• Most payments came from borrowers with MORTGAGE status.
-	• Peak count: ~4,754 in 2014 (MORTGAGE).
 
-This implies that homeowners (especially those with mortgages) were the most active in loan repayments.
+![PowerBI Dashboard](https://github.com/user-attachments/assets/d8afb507-df96-434a-9994-f7a498c0bd8f)
 
-🔹 State-Wise & Year-Wise Loan Status (Treemap)
 
-Top States by Loan Volume:
+![Tableau Dashboard](https://github.com/user-attachments/assets/a26bb5c9-1f56-4c0a-b040-f0ace706f4c3)
 
-	• California (CA) and New York (NY) dominate, especially with "Fully Paid" statuses from 2014–2016.
-	• California alone holds a large share in both successful repayments and charge-offs.
 
-This map visually shows the performance of loans across regions and years, making it easy to identify strong and weak markets.
 
-🔹 All dashboards deliver a comprehensive visual analysis of the bank's loan portfolio from 2007 to 2016. 
 
-It effectively communicates:
 
-	• Funding growth trends
-	• Risk and grade distribution
-	• Verification impact
-	• Regional loan performance
-	• Borrower profile via homeownership
+
+
